@@ -145,4 +145,57 @@ body nav a{
     text-align: center;
 }
 
+@media (max-width: 729px) {
+
+    #planes{
+        display: block;
+        margin-top: 0%;
+
+    }
+    #card1{
+        margin-top: 0px !important;
+    }
+    #card3{
+        margin-bottom: 0px !important;
+    }
+    .card{
+        margin: 0px !important;
+        
+    }
+    .card-img-top{
+        width: 50%;
+        
+    }
+
+    .card-body{
+        width: 100%;
+        padding: 10% !important;
+        
+        
+    }
+
+    #nosotros{
+        display: block; 
+    
+    }
+    .card-text{
+        display: flex;
+        width: 100%;
+        margin-top: 18%;
+    }
+    .card-text1{
+        
+        padding-right: 14% !important;
+        
+    }
+
+    #eventos{
+        display: block;
+    }
+
+    
+    
+   
+   
+}
 
