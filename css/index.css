@@ -1,0 +1,148 @@
+body{
+    background: black;
+}
+
+body nav{
+    color: black; 
+}
+body nav a{
+    color:black;
+}
+
+.fondo{
+    height: 100vh;
+    background-image: url(../assent/img/mariachi-rojo.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.black{
+    background: rgba(0, 0, 0, 0.198);
+}
+
+.top-nav-collapse{
+    background: rgba(0, 0, 0, 0.877);
+}
+#nanbar img{
+    width: 30%; /* Tamaño del logo*/
+}
+
+#nanbar .collapse li a:hover{
+    color: red !important;
+
+}
+
+#carouselExampleControls{
+    width: 100vw ;
+    height: auto;
+    
+}
+
+#planes{
+    display: flex;
+    justify-content: center;
+    max-top: -20px;
+    background-color: black;
+}
+
+#eventos{
+    display: flex;
+}
+
+#card1{
+   padding: 1%;
+   margin: 3%;
+   background-color: red;
+
+}
+#card2{
+    padding: 1%;
+    margin: 3%;
+    background-color: white;    
+ }
+ #card3{
+    padding: 1%;
+    margin: 3%;
+    background-color: green;    
+ }
+
+.bg{
+    background: black;
+    display: flex;
+    padding-bottom: 7%;
+    padding-top:7% ;
+}
+
+
+.card-body{
+    width: 50%;
+    height: 50vh;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+}
+ .card-text{
+     width: 50%;
+     
+ }
+ .card-text h1{
+    padding-left: 10%;
+    padding-bottom: 5%;
+    display: flex;
+    color: red;
+
+}
+.card-text1{
+    align-items: center;
+
+}
+.card-text h6{
+    padding-left: 10%;
+    padding-bottom: 2%;
+    color: green;
+
+}
+
+ .card-text p{
+     padding-right: 10%;
+     padding-left: 10%;
+     padding-bottom: 1%;
+     color: white;
+
+ }
+
+ .slide{
+    width: 70vw;
+    height: 70vh;
+    margin: auto;
+ }
+
+ /* for whatsapp*/
+
+ .float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+	color: white;
+}
+
+.footer{
+    text-align: center;
+}
+
+
