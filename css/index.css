@@ -135,7 +135,32 @@ body nav a{
 	box-shadow: 2px 2px 3px #999;
   z-index:100;
 }
+.float1{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:120px;
+	background-color:#ff5722;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
 
+.float{
+    -webkit-animation: tiembla 0.3s infinite;
+  }
+.float1{
+    -webkit-animation: tiembla 0.3s infinite;
+  }
+ @-webkit-keyframes tiembla{
+    0%  { -webkit-transform:rotateZ(-5deg); }
+    50% { -webkit-transform:rotateZ( 0deg) scale(.8); }
+    100%{ -webkit-transform:rotateZ( 5deg); }
+  }
 .my-float{
 	margin-top:16px;
 	color: white;
